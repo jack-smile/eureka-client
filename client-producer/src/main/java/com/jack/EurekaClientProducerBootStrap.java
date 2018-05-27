@@ -9,6 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @date 2018/5/9
  */
 @EnableDiscoveryClient
+//@EnableEurekaClient
 @SpringBootApplication
 public class EurekaClientProducerBootStrap {
 
