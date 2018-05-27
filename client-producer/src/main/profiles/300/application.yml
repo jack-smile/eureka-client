@@ -8,6 +8,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka1:1111/eureka/
+  registry-fetch-interval-seconds: 60
   instance:
     prefer-ip-address: true
 #    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
